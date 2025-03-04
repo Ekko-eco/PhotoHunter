@@ -1,11 +1,11 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;  // ƒV[ƒ“ŠÇ—‚ğg‚¤‚½‚ß‚É•K—v
+using UnityEngine.SceneManagement;  // ã‚·ãƒ¼ãƒ³ç®¡ç†ã‚’ä½¿ã†ãŸã‚ã«å¿…è¦
 
 public class Exit : MonoBehaviour
 {
-    // ‚±‚Ìƒƒ\ƒbƒh‚ğƒ{ƒ^ƒ“‚ÌOnClickƒCƒxƒ“ƒg‚É“o˜^
+    // ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’ãƒœã‚¿ãƒ³ã®OnClickã‚¤ãƒ™ãƒ³ãƒˆã«ç™»éŒ²
     public void ChangeSceneToStageSelect()
     {
-        SceneManager.LoadScene("StageSelect");  // "StageSelect"‚ÍƒV[ƒ“‚Ì–¼‘O
+        SceneManager.LoadScene("StageSelect");
     }
 }
